@@ -12,6 +12,8 @@ public class RandomGenerator {
 		String randNumber = Integer.toString(new Random(seed).nextInt());
 		
 		System.out.println("Random string is: " + randNumber);
+		
+		System.out.println("This does the weather thing");
 	}
 
 }
