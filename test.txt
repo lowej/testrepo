@@ -1,1 +1,2 @@
+here is a new first line
 this is a test file.
