@@ -7,7 +7,9 @@ public class RandomGenerator {
 	
 	public static void main(String args[]){
 		
-		String randNumber = Integer.toString(new Random(new Date().getTime()).nextInt());
+		
+		long seed = new Date().getTime();
+		String randNumber = Integer.toString(new Random(seed).nextInt());
 		
 		System.out.println("Random string is: " + randNumber);
 	}
